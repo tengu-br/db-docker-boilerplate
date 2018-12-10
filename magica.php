@@ -7,8 +7,6 @@ $db =  [
     'dbname' => 'valoresResponsaveis',
 ];
 
-$user = 'sa';
-$password = 'now-tcdf';
 
 try {
     $pdo = new PDO('dblib:host=' . $db['host'] . ';dbname=' . $db['dbname'],
