@@ -1,10 +1,10 @@
 <?php
 
 $db =  [
-    'host' => '10.9.16.220',
-    'user' => 'sa',
-    'pass' => 'now-tcdf',
-    'dbname' => 'valoresResponsaveis',
+    'host' => '',
+    'user' => '',
+    'pass' => '',
+    'dbname' => '',
 ];
 
 
