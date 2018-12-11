@@ -3,8 +3,7 @@ FROM php:fpm-alpine
 #ADD PACKAGES
 RUN apk update \
 	&& apk add\
-        freetds-dev \
-        openldap-dev && \
+        freetds-dev && \
         rm -rf /var/cache/apk/*
 
 #PHP EXTENSIONS
